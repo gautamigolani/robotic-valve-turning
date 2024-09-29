@@ -169,12 +169,19 @@
 
 <!-- Media side by side -->
 <style>
+  .columns.is-centered.is-gapless {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .column {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
   .image img {
-    margin-right: -300px; /* Adjust as needed to reduce gap */
+    margin: 0 !important; /* Remove any image margins */
   }
 </style>
 
-<!-- Media side by side -->
 <section class="section">
   <div class="container">
     <div class="columns is-centered has-text-centered">
