@@ -153,26 +153,21 @@
 <!-- Media side by side -->
 <section class="section">
   <div class="container">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <div class="columns is-centered">
-          <!-- First media -->
-          <div class="columns is-centered" style="display: flex; justify-content: flex-start;">
-            <div class="column is-half" style="margin-right: -10px;"> <!-- Margin only on the left image -->
-              <figure class="image">
-                <img src="static/images/intro_v2.png" alt="First GIF description" style="width: auto; height: 200px;">
-              </figure>
-            </div>
-            <div class="column is-half">
-              <figure class="image">
-                <img src="static/images/valve_assembly_exploded_view.gif" alt="Second GIF description">
-              </figure>
-            </div>
-          </div>          
+    <div class="columns is-centered">
+      <div class="column is-flex is-justify-content-space-between">
+        <!-- Left Image -->
+        <div class="image" style="flex: 0 1 40%; margin-right: 20px;"> <!-- Adjust width as needed -->
+          <img src="static/images/intro_v2.png" alt="First GIF description" style="width: auto; height: 300px;">
+        </div>
+        <!-- Right Image -->
+        <div class="image" style="flex: 1;"> <!-- Make this column take more space -->
+          <img src="static/images/valve_assembly_exploded_view.gif" alt="Second GIF description" style="width: 100%; height: auto;"> <!-- Adjust to fit -->
+        </div>
       </div>
     </div>
   </div>
 </section>
+
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
